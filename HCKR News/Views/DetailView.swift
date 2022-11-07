@@ -24,11 +24,13 @@ struct DetailView_Previews: PreviewProvider {
 }
 
 struct WebView: UIViewRepresentable {
-    func makeUIView(context: Context) -> some UIView {
-        <#code#>
+    
+    
+    func makeUIView(context: UIViewRepresentableContext<WebView>) -> WebView.UIViewType {
+        return WKWebView()
     }
     
-    func updateUIView(_ uiView: UIViewType, context: Context) {
+    func updateUIView(_ uiView: WebView.UIViewType, context: UIViewControllerRepresentableContext<WebView>) {
         <#code#>
     }
 }
