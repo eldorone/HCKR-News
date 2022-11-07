@@ -60,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				492C6CDF29194BE900B6DAAA /* HCKR_NewsApp.swift */,
-				492C6CF22919620900B6DAAA /* Views */,
 				492C6CED291959BA00B6DAAA /* Models */,
+				492C6CF22919620900B6DAAA /* Views */,
 				492C6CE329194BEB00B6DAAA /* Assets.xcassets */,
 				492C6CE529194BEB00B6DAAA /* Preview Content */,
 			);
